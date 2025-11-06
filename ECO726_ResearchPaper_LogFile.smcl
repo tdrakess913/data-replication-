@@ -1,0 +1,33 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\Mr. Drakes\Downloads\2025 721\ECO726_ResearchPaper_LogFile.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res} 6 Nov 2025, 17:38:11
+{txt}
+{com}. 
+. 
+. use cps_00005,clear 
+{err}{p 0 4 2}
+file {bf:{err}cps_00005.dta}
+not found
+{p_end}
+{txt}{search r(601), local:r(601);}
+
+end of do-file
+
+{search r(601), local:r(601);}
+
+{com}. do "C:\Users\MR9675~1.DRA\AppData\Local\Temp\STD2088_000000.tmp"
+{txt}
+{com}. cls 
+{txt}
+{com}. clear all 
+{res}{txt}
+{com}. 
+. capture cd "C:\Users\Mr. Drakes\Dropbox\ECO 797\2025 797"
+{txt}
+{com}. 
+. capture log close 
+{smcl}
+{com}{sf}{ul off}
